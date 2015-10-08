@@ -25,8 +25,8 @@ Process :
 1. Now, clone this repository into wherever you want, provided that that directory be listed in the $GAZEBO_MODEL_PATH. Personally, I keep it in ~/.gazebo/models ; don't have to edit ~/.bashrc that way.
 
 2. Next step, make sure you have swarm_simulator repository setup in your catkin workspace. You have two options, I prefer the first one though both work:
-        * Copy the model.sdf from the cloned directory and replace the swarmRobot.sdf in the sdf folder with this. Rename it to swarmRobot.sdf
-        * Edit the one_swarmRobot.launch to give the absolute address for the model.sdf
+       * Copy the model.sdf from the cloned directory and replace the swarmRobot.sdf in the sdf folder with this. Rename it to       swarmRobot.sdf
+       * Edit the one_swarmRobot.launch to give the absolute address for the model.sdf
 
 3. Run the swarm_simulator as earlier. It should run without any issues. To check all the rostopics being published, run:
 ```
