@@ -5,10 +5,10 @@ Model : swarm_robot for gazebo using ros
 This model has been built using a mesh created in 3D Solidworks and by using values from the .urdf to create a .sdf file. This uses plugins from ros and the SDF format for its description.
 
 Prerequisites :
----------------------
-> Install [ros_indigo_desktop_full](http://wiki.ros.org/indigo/Installation/Ubuntu). The ros.org site has ample description for it.
+---------------
+- Install [ros_indigo_desktop_full](http://wiki.ros.org/indigo/Installation/Ubuntu). The ros.org site has ample description for it.
 
-> Even though this model *will* [read as : should, haven't tested] work with the Gazebo 2.2 version that comes bundled with ros-indigo, in light of future modifications, it is highly recommended that Gazebo 6 wrappers be installed as listed below. Take note that as of last checking, the wrappers will only work with x64 machines, there are no sources for 32-bit machines. 
+- Even though this model *will* [read as : should, haven't tested] work with the Gazebo 2.2 version that comes bundled with ros-indigo, in light of future modifications, it is highly recommended that Gazebo 6 wrappers be installed as listed below. Take note that as of last checking, the wrappers will only work with x64 machines, there are no sources for 32-bit machines. 
 
 ```sh 
 # Add the appropriate apt repo (substitute 'trusty' for the right value):
